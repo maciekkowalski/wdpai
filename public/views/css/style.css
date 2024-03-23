@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(23, 207, 183);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.flex-row-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: whitesmoke;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: rgba(230, 26, 151, 0.25) 0px 50px 100px -20px, rgba(219, 21, 137, 0.3) 0px 30px 60px -30px;
+}
+
+form {
+    gap: 1.5em;
+}
+
+form > input, form > button, form > textarea {
+    border: 0 solid black;
+    border-radius: 1em;
+    padding: 1em;
+    width: 400px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+form > button, button {
+    box-sizing:  content-box;
+    font-weight: 600;
+    box-shadow: rgb(32, 99, 158) 3px 3px 6px 0px inset, rgba(207, 44, 44, 0.5) -3px -3px 6px 1px inset; ;
+}
